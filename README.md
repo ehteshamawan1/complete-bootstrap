@@ -1,4 +1,4 @@
 # Complete Bootstrap course.
-Two Projects.
-Project 1: Just Bootstrap
+Two Projects.__
+Project 1: Just Bootstrap.__
 Project 2: Custom CSS
