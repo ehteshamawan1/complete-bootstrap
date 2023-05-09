@@ -1,5 +1,21 @@
-.navbar-expand-lg .navbar-nav .nav-link{
+.navbar-expand-xl {
     font-weight: 600;
     font-size: larger;
+    opacity: 1;
+    position: absolute;
+    font: poppins;
 }
 .dropdown:hover .dropdown-menu {display: block;}
+.navbar-brand {
+    padding-right: 50px !important;
+    padding-left: 50px !important;
+}
+.carousel {
+    position: absolute;
+}
+.navbar-collapse {
+    justify-content: center;
+}
+.nav-item {
+    padding-right: 40px;
+}
