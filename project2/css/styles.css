@@ -80,7 +80,7 @@
   margin-top: 20px;
 }
 
-@media only screen and (max-width: 1250px) {
+@media only screen and (max-width: 1260px) {
   #banner-txt h1 {
     margin-top: 20px;
     font-size: 60px;
@@ -101,7 +101,18 @@
 
 @media only screen and (max-width: 767px) {
   .row {
-    padding-left: 15px;
-    padding-right: 15px;
+    padding-left: 30px;
+    padding-right: 30px;
   }
 }
+
+@media only screen and (max-width: 410px) {
+    .row {
+      padding-left: 20px;
+      padding-right: 20px;
+    }
+    #banner-txt h1 {
+        font-size: 25px;
+    }
+  }
+  
