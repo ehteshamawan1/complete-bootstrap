@@ -133,3 +133,27 @@
     padding: 0px;
   }
 }
+
+/* Service */
+#service-txt {
+  padding-top: 10%;
+  padding-bottom: 10%;
+}
+#service-btn {
+  color: white;
+  background-color: #fcc302;
+  border: 2px solid #fcc302;
+}
+.dog-2 {
+  float: right;
+}
+@media only screen and (max-width: 767px) {
+  .dog-2 {
+    float: none;
+  }
+}
+@media only screen and (max-width: 291px) {
+  #service-txt h1 {
+    font-size: 22px;
+  }
+}
