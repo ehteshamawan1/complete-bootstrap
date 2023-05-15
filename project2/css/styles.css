@@ -4,6 +4,14 @@
   margin-bottom: 10px;
 }
 
+.row {
+  --bs-gutter-x: 0;
+}
+
+.container-fluid {
+  --bs-gutter-x: 0;
+}
+
 #top_nav {
   background-color: #daac00;
   padding: 0 8%;
@@ -103,7 +111,7 @@
 @media only screen and (max-width: 767px) {
   .row {
     padding-left: 30px;
-    padding-right: 30px;
+    padding-right: 25px;
   }
 }
 
@@ -114,5 +122,14 @@
   }
   #banner-txt h1 {
     font-size: 25px;
+  }
+}
+
+@media only screen and (max-width: 376px) {
+  .navbar-brand {
+    max-width: 30px;
+  }
+  #top_nav {
+    padding: 0px;
   }
 }
