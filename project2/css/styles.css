@@ -1,52 +1,107 @@
 .logo {
-    max-width: 105px;
-    margin-top: 10px;
-    margin-bottom: 10px;
+  max-width: 105px;
+  margin-top: 10px;
+  margin-bottom: 10px;
 }
 
 #top_nav {
-    background-color: #daac00;
-    padding: 0 8%;
+  background-color: #daac00;
+  padding: 0 8%;
 }
 
 .navbar-dark .navbar-nav .nav-link {
-    color: rgb(255, 255, 255);
-    font-size: 20px;
-    padding-left: 25px;
+  color: rgb(255, 255, 255);
+  font-size: 20px;
+  padding-left: 25px;
 }
 
 #searchbox {
-    background-color: #fcc302;
-    color: white;
-    border: 0px;
-    border-radius: 0px;
-    position: relative;
-    left: 47px;
-    box-shadow: 5px 10px 11px 0px #00000021;
+  background-color: #fcc302;
+  color: white;
+  border: 0px;
+  border-radius: 0px;
+  position: relative;
+  left: 47px;
+  box-shadow: 5px 10px 11px 0px #00000021;
 }
 
 #searchbox::placeholder {
-    color: white;
+  color: white;
 }
 
 #searchbtn {
-    position: relative;
-    background-color: #00bec9;
-    color: white;
-    border: 0px;
-    border-radius: 0px;
+  position: relative;
+  background-color: #00bec9;
+  color: white;
+  border: 0px;
+  border-radius: 0px;
 }
 
-@media only screen and (max-width: 991px){
-    #searchform {
-        margin-bottom: 30px;
-        margin-top: 20px;
-        position: relative;
-        left: -22px;
-    }
+@media only screen and (max-width: 991px) {
+  #searchform {
+    margin-bottom: 30px;
+    margin-top: 20px;
+    position: relative;
+    left: -22px;
+  }
 }
 
 /* banner */
 #banner {
-    background-color: #fcc302;
+  background-color: #fcc302;
+  padding-bottom: 20px;
+}
+
+#banner-txt h1 {
+  color: white;
+  font-size: 70px;
+}
+
+#banner-txt p {
+  color: white;
+  font-size: 20px;
+  margin-top: 30px;
+  margin-bottom: 20px;
+}
+
+#banner-btn-1 {
+  background-color: #00bec9;
+  border: 2px solid #00bec9;
+  color: white;
+}
+
+#banner-btn-2 {
+  color: white;
+  border: 2px solid white;
+  margin-left: 15px;
+}
+
+#banner-img {
+  margin-top: 20px;
+}
+
+@media only screen and (max-width: 1250px) {
+  #banner-txt h1 {
+    margin-top: 20px;
+    font-size: 60px;
+  }
+}
+
+@media only screen and (max-width: 1075px) {
+  #banner-txt h1 {
+    font-size: 50px;
+  }
+}
+
+@media only screen and (max-width: 900px) {
+  #banner-txt h1 {
+    font-size: 40px;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  .row {
+    padding-left: 15px;
+    padding-right: 15px;
+  }
 }
