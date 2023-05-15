@@ -107,12 +107,11 @@
 }
 
 @media only screen and (max-width: 410px) {
-    .row {
-      padding-left: 20px;
-      padding-right: 20px;
-    }
-    #banner-txt h1 {
-        font-size: 25px;
-    }
+  .row {
+    padding-left: 20px;
+    padding-right: 20px;
   }
-  
+  #banner-txt h1 {
+    font-size: 25px;
+  }
+}
