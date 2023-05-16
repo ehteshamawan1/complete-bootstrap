@@ -156,4 +156,7 @@
   #service-txt h1 {
     font-size: 22px;
   }
+  .navbar-brand {
+    width: 165px;
+  }
 }
